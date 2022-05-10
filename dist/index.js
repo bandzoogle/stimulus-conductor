@@ -1,6 +1,6 @@
 'use strict';
 
-var stimulus = require('stimulus');
+var stimulus = require('@hotwired/stimulus');
 
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
