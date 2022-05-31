@@ -1,7 +1,7 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('stimulus')) :
-  typeof define === 'function' && define.amd ? define(['stimulus'], factory) :
-  (global = global || self, global['stimulus-conductor'] = factory(global.Stimulus));
+  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@hotwired/stimulus')) :
+  typeof define === 'function' && define.amd ? define(['@hotwired/stimulus'], factory) :
+  (global = global || self, global['stimulus-conductor'] = factory(global.stimulus));
 }(this, (function (stimulus) { 'use strict';
 
   function _classCallCheck(instance, Constructor) {
